@@ -23,3 +23,7 @@ body main {
     display: ruby-text;
     background: turquoise;
 }
+
+.card-body {
+    background-color: turquoise;
+}
