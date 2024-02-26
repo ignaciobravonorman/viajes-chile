@@ -27,3 +27,7 @@ body main {
 .card-body {
     background-color: turquoise;
 }
+
+form .btn {
+    background: turquoise;
+}
