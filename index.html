@@ -33,13 +33,13 @@
                             <a class="nav-link" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#section-about">Quienes somos</a>
+                            <a class="nav-link" href="#seccion-quienes-somos">Quienes somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#section-featured">Destacados</a>
+                            <a class="nav-link" href="#Destacados">Destacados</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#section_contact">Contacto</a>
+                            <a class="nav-link" href="#contacto">Contacto</a>
                         </li>
 
                 </div>
@@ -74,7 +74,7 @@
     </header>
     <main>
         <!--quienes somos-->
-        <section id="seccion quienes somos" class="p-5 text-white container-fluid d-none d-lg-block bg-dark">
+        <section id="seccion-quienes-somos" class="p-5 text-white container-fluid d-none d-lg-block bg-dark">
             <div class="container text-center px-3 pt-3">
                 <h1 class="mb-5">¿QUIÉNES SOMOS?</h1>
                 <hr>
@@ -205,21 +205,46 @@
                     <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-
-                        <button class="btn btn-contact text-white mt-2">Enviar</button>
-
+                        <button class="btn btn-contact text-white mt-2" data-bs-toggle="tooltip" data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip" data-bs-title="haz clic para Enviar.">Enviar</button>
                     </div>
                 </div>
 
             </section>
         </form>
     </main>
+    <!--inicio footer-->
+    <footer>
+        <footer class="py-3 ">
+            <div class=" container d-flex justify-content-between">
+                <h2 class="text-white fw-light  text-left "> VIAJES CHILE</h2>
+                <div class="iconos ">
+                    <a href="https://github.com/">
+                        <i class="fa-brands fa-github fa-3x mx-2"></i>
+                    </a>
+                    <a href="https://cl.linkedin.com/">
+                        <i class="fa-brands fa-linkedin fa-3x mx-2"></i>
+                    </a>
+                    <a href="https://twitter.com/">
+                        <i class="fa-brands fa-square-twitter fa-3x mx-2"></i>
+                    </a>
+                    <a href="https://es-la.facebook.com/">
+                        <i class="fa-brands fa-square-facebook fa-3x mx-2"></i>
+                    </a>
+                </div>
+            </div>
+
+        </footer>
+    </footer>
 
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>

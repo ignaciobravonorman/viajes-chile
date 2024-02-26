@@ -31,3 +31,11 @@ body main {
 form .btn {
     background: turquoise;
 }
+
+footer {
+    background-color: turquoise;
+}
+
+footer a {
+    color: white;
+}
