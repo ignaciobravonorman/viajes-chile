@@ -11,6 +11,15 @@
     background: transparent !important;
 }
 
-.navbar-brand {
-    width: 35px;
+.navbar-brand img {
+    height: 35px;
+}
+
+body main {
+    background-color: black;
+}
+
+.icon {
+    display: ruby-text;
+    background: turquoise;
 }
